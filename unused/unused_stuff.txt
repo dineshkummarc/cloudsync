@@ -1,0 +1,42 @@
+//file.list method
+$filist = $service->files->list(array('q' => "'root' in parents and trashed != true"));
+foreach($filist['items'] as $item){
+    $id = $service->files->get((string)$item["id"]);
+    print $id->title;
+    if((string)$id->mimeType=="application/vnd.google-apps.folder")echo" [F]";
+    echo"<br>";
+}
+
+// HEAD request
+$url = URL;
+$curl = curl_init($url);
+curl_setopt_array($curl, [
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_USERPWD => "user:password",
+    CURLOPT_HEADER => true,
+    CURLOPT_CONNECTTIMEOUT => 0,
+    CURLOPT_HTTPAUTH => CURLAUTH_BASIC,
+    CURLOPT_NOBODY => true
+]);
+$result = curl_exec($curl);
+curl_close($curl);
+echo $result;
+
+//old breadcrumb code
+$url=$positions[0]["href"];
+$start=strpos($url,"/",strrpos($url,":"))+1;
+$array= explode("/",substr($url,$start));
+echo "<li><a href='/'>Home</a>";
+$start--;
+for ($i = 0; $i < count($array); $i++) {
+    if(!empty($array[$i])){
+        echo" <span class='divider'> > </span> </li>";
+        $start=$start+strlen($array[$i])+1;
+        echo"<li><a href='/?url=".substr($url,0,$start)."'>".$array[$i]."</a>";
+    }
+}echo"</li>";
+
+//store token in json
+$json = json_decode(file_get_contents($file),true);
+$json[$_SESSION["tmp"]] .= $_SESSION["token"];
+file_put_contents($file, json_encode($json));

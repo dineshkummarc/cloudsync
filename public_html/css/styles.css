@@ -1,0 +1,74 @@
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    text-align: center;  
+}
+
+.topp{
+    opacity: 0.5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.topp:hover{
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+#middle
+{
+    text-align: center;
+}
+
+#bottom
+{
+    font-size: smaller;
+    margin: 20px;
+    text-align: center;
+}
+
+.table {
+    word-wrap: break-word;
+}
+
+ul
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+.stopBlink{
+    position: relative; 
+    float:left; 
+    padding-left: 3px; 
+    padding-right: 3px; 
+    margin-right: 5px;
+}
+
+.fold{
+    background-color: lightblue;
+}
+.file{
+    background-color: dimgray;
+    color: lightblue;
+}
+.file a{color: lightblue;}
+
+#hide{
+    display: none !important;
+}
+
+th {
+    white-space:nowrap;
+}

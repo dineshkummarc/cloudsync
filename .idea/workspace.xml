@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee470e43-c8b8-40dd-a776-5ccdbc2f78ff" name="Default" comment="" />
+    <ignored path="CloudSync.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CloudSync" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/start.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="65" selection-start="261" selection-end="261" vertical-scroll-proportion="-0.0" vertical-offset="68" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sync.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="35" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-0.081145585" vertical-offset="561" max-vertical-offset="2686">
+              <folding>
+                <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+                <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gclient.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/gclient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="31" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="117" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="29" selection-start="3105" selection-end="3105" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1088">
+              <folding>
+                <marker date="1401401987483" expanded="true" signature="2262:2294" placeholder="SELECT * FRO..users..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="68" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2652">
+              <folding>
+                <marker date="1404845668361" expanded="true" signature="104:137" placeholder="select * fro..clouds..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/includes/.htaccess" />
+        <option value="$PROJECT_DIR$/public_html/repeat.php" />
+        <option value="$PROJECT_DIR$/server.bat" />
+        <option value="$PROJECT_DIR$/templates/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/example_constants.php" />
+        <option value="$PROJECT_DIR$/library/class_webdav_client.php" />
+        <option value="$PROJECT_DIR$/wapp/index.php" />
+        <option value="$PROJECT_DIR$/includes/config.php" />
+        <option value="$PROJECT_DIR$/unused/.htaccess" />
+        <option value="$PROJECT_DIR$/wapp/start.php" />
+        <option value="$PROJECT_DIR$/wapp/sync.php" />
+        <option value="$PROJECT_DIR$/wapp/a.php" />
+        <option value="$PROJECT_DIR$/templates/home.php" />
+        <option value="$PROJECT_DIR$/wapp/cloud.php" />
+        <option value="$PROJECT_DIR$/unused/sqldmp/db_2014-04-29_22-58.sql" />
+        <option value="$PROJECT_DIR$/public_html/login.php" />
+        <option value="$PROJECT_DIR$/public_html/register.php" />
+        <option value="$PROJECT_DIR$/public_html/cloud.php" />
+        <option value="$PROJECT_DIR$/templates/header.php" />
+        <option value="$PROJECT_DIR$/templates/register_form.php" />
+        <option value="$PROJECT_DIR$/templates/login_form.php" />
+        <option value="$PROJECT_DIR$/templates/forgot_form.php" />
+        <option value="$PROJECT_DIR$/public_html/index.php" />
+        <option value="$PROJECT_DIR$/includes/functions.php" />
+        <option value="$PROJECT_DIR$/public_html/start.php" />
+        <option value="$PROJECT_DIR$/includes/constants.php" />
+        <option value="$PROJECT_DIR$/public_html/sync.php" />
+        <option value="$PROJECT_DIR$/includes/gclient.php" />
+        <option value="$PROJECT_DIR$/public_html/a.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlDialectInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="My Scope">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="CloudSync">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unused" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unused" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="D:/program files/php-5.5.9-Win32-VC11-x86" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="TODO_SCOPE" value="My Scope" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dir.diff.last.used.directory" value="$USER_HOME$/Desktop/SabreDAV-1.8.7/lib/Sabre" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\templates" />
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\unused" />
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\library" />
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\public_html" />
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\public_html\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shazv_000\PhpstormProjects\CloudSync\unused" />
+      <recent name="C:\Users\shazv_000\PhpstormProjects\CloudSync\library\GClient" />
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\sess_tmp" />
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\public_html\img" />
+      <recent name="C:\Users\Shazvi.HOME7-PC\PhpstormProjects\CloudSync\library\Sabre\lib\Sabre" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="dd3dd2a2-b0b2-415b-8850-96d4075d06f6" server_name="CloudSync">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee470e43-c8b8-40dd-a776-5ccdbc2f78ff" name="Default" comment="" />
+      <created>1388784010096</created>
+      <updated>1388784010096</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31893688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="23" y="360" width="1234" height="274" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3200443" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15390626" sideWeight="0.6705744" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32668883" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.278125" sideWeight="0.67995447" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public_html/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="47" selection-start="6849" selection-end="6849" vertical-scroll-proportion="0.0" vertical-offset="1801" max-vertical-offset="2652">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="47" selection-start="6849" selection-end="6849" vertical-scroll-proportion="0.0" vertical-offset="1801" max-vertical-offset="2652">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2652">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="9" selection-start="4794" selection-end="4794" vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="2533">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="9" selection-start="4794" selection-end="4794" vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="2533">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="56" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2635">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="73" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2618">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="73" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2618">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="73" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2618">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="88" selection-start="381" selection-end="381" vertical-scroll-proportion="0.10290557" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Backup_Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="63" selection-start="4614" selection-end="4631" vertical-scroll-proportion="0.64042306" vertical-offset="2243" max-vertical-offset="3094" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1143" column="9" selection-start="33404" selection-end="33404" vertical-scroll-proportion="0.8707403" vertical-offset="18690" max-vertical-offset="19567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="40" selection-start="4024" selection-end="4024" vertical-scroll-proportion="-11.0" vertical-offset="1023" max-vertical-offset="1564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/unused_stuff.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="73" selection-start="291" selection-end="291" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/sqldmp/db_2014-04-29_22-58.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="69" selection-end="69" vertical-scroll-proportion="0.04091456" vertical-offset="0" max-vertical-offset="831" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="522" column="9" selection-start="16552" selection-end="16552" vertical-scroll-proportion="0.34312573" vertical-offset="8582" max-vertical-offset="18734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/forgot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="59" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.8789659" vertical-offset="0" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/repeat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/cloud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="62" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.21034078" vertical-offset="501" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/curl_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="8" selection-start="3791" selection-end="3791" vertical-scroll-proportion="0.34312573" vertical-offset="1714" max-vertical-offset="6528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/example_constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="380" selection-end="380" vertical-scroll-proportion="0.19153936" vertical-offset="24" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="40" selection-start="10268" selection-end="10268" vertical-scroll-proportion="0.7708578" vertical-offset="2982" max-vertical-offset="3859" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/dom_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="960" column="20" selection-start="30114" selection-end="30114" vertical-scroll-proportion="0.34312573" vertical-offset="16062" max-vertical-offset="36924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forgot_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="301" column="9" selection-start="10506" selection-end="10506" vertical-scroll-proportion="-5.0" vertical-offset="4987" max-vertical-offset="18615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/oldindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="145" selection-end="152" vertical-scroll-proportion="0.079905994" vertical-offset="0" max-vertical-offset="851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/sync/log_2014-07-14.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="29" selection-start="35" selection-end="39" vertical-scroll-proportion="0.019384265" vertical-offset="0" max-vertical-offset="877" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="68" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2652">
+          <folding>
+            <marker date="1404845668361" expanded="true" signature="104:137" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="13" selection-start="2088" selection-end="2088" vertical-scroll-proportion="-3.9353702" vertical-offset="4301" max-vertical-offset="5168">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1152" selection-end="1369" vertical-scroll-proportion="0.5215827" vertical-offset="475" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="117" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="65" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="29" selection-start="3105" selection-end="3105" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1088">
+          <folding>
+            <marker date="1401401987483" expanded="true" signature="2262:2294" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/gclient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="126" selection-start="1337" selection-end="1362" vertical-scroll-proportion="0.6551313" vertical-offset="216" max-vertical-offset="1258">
+          <folding>
+            <marker date="1401162585556" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1401162585556" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1401162585556" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.039952997" vertical-offset="0" max-vertical-offset="851">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="35" selection-start="1232" selection-end="1232" vertical-scroll-proportion="-0.081145585" vertical-offset="561" max-vertical-offset="2686">
+          <folding>
+            <marker date="1406398112346" expanded="true" signature="983:1020" placeholder="SELECT * FRO..clouds..." />
+            <marker date="1406398112346" expanded="true" signature="1070:1107" placeholder="select * fro..clouds..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>My Scope</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="My Scope" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
