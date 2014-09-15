@@ -24,7 +24,8 @@
     date_default_timezone_set(TIMEZONE);
 
     // require authentication for most pages
-    if (!preg_match("{(?:login|logout|register|forgot|sync|start|a)\.php$}", $_SERVER["PHP_SELF"]) && empty($_SESSION["id"]))
+    if (!preg_match("{(?:login|logout|register|forgot|sync|a)\.php$}", $_SERVER["PHP_SELF"]) && empty($_SESSION["id"]))
     {
         redirect("login.php");
     }
+

@@ -12,21 +12,12 @@ require"../includes/config.php";
 ini_set("max_execution_time", "0"); // Allow infinite execution time
 ini_set("upload_max_filesize", "50M"); // Probably doesn't work but it doesn't matter for remote downloads anyway
 
-/*// Close connection to client
-ob_end_clean();
-header("Connection: close");
-ignore_user_abort(true); // just to be safe
-ob_start();
-echo "Started...";
-$size = ob_get_length();
-header("Content-Length: $size");
-ob_end_flush(); // Strange behaviour, will not work
-flush(); // Unless both are called !*/
+$id = "0B2nhApKeIKmVWDUzQlB2SVVwakk"; // "0B2nhApKeIKmVc1ljZEM2blZZYm8";
+$url = "http://webdav.cubby.com:443/Web Archive"; // "http://webdav.cubby.com:443/"
 
 // Initial setup
 if (!isset($_SESSION["starttime"])) $_SESSION["starttime"] = time();
-$token = query("SELECT * FROM clouds WHERE number = 1");
-$token = $token[0]["url"];
+$token = '{"access_token":"ya29.1.AADtN_WB9Vfc7c84am8QQvUR1grGz0AfIJIaLUtJT27gmwAG_LwWqHd259B5R7BKL7eInQ","token_type":"Bearer","expires_in":3600,"refresh_token":"1\/8-PIhkoy8bUAGO7zZK6XjtiOe3nG8d9Q0BGyNPlwi9w","created":1398112418}';
 $davcloud = query("select * from clouds where number = 2");
 $davcloud = $davcloud[0];
 $syncfolderid=$_GET["id"];
