@@ -11,15 +11,15 @@
 
         <link rel="icon" type="image/png" href="img/icon.png">
         <?php if (!empty($title)): ?>
-            <title>CloudSync: <?= htmlspecialchars($title) ?></title>
+            <title>CloudSync: <?= htmlspecialchars($title); ?></title>
         <?php else: ?>
             <title>CloudSync</title>
         <?php endif ?>
 
-        <script src="js/jquery-1.8.2.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/sorttable.js"></script>
-        <script src="js/jquery.highlight-upd.js"></script>
+        <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/sorttable.js"></script>
+        <script type="text/javascript" src="js/jquery.highlight-upd.js"></script>
 
     </head>
     <body style="background: #c1c1c1 /*url(img/back.png) repeat-x;">
@@ -52,9 +52,8 @@
                                 <li><a href="logout.php" title="Goodbye"><i class="icon-share-alt"></i> <strong> Log</strong> Out</a></li>
                             <? endif ?>
                         </ul>
-                        <?php if(isset($_SESSION['id']))echo"<p class='navbar-text' style='text-align: right;'>Signed in as ".ucfirst($name[0]["username"])."</p>";?>
+                        <?php if(isset($_SESSION['id'])) echo"<p class='navbar-text' style='text-align: right;'>Signed in as ".ucfirst($name[0]["username"])."</p>";?>
                     </div>
                 </div>
             </div>
             <div id="middle">
-            
