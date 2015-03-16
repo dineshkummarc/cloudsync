@@ -7,7 +7,7 @@ $client->setApplicationName("CloudSync");
 $client->setUseObjects(true);
 $client->setClientId(CLIENTID);
 $client->setClientSecret(CLIENTSECRET);
-$client->setRedirectUri($_SERVER['HTTP_HOST'].'/cloud.php');
+$client->setRedirectUri('http://localhost:8000/cloud.php');
 $client->setDeveloperKey(DEVELOPERKEY);
 $client->setScopes(array('https://www.googleapis.com/auth/drive'));
 //, 'https://www.googleapis.com/auth/userinfo.profile', 'https://www.googleapis.com/auth/userinfo.email'

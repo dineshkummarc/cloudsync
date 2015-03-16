@@ -12,18 +12,10 @@ require"../includes/config.php";
 ini_set("max_execution_time", "0"); // Allow infinite execution time
 ini_set("upload_max_filesize", "50M"); // Probably doesn't work but it doesn't matter for remote downloads anyway
 
-$id = "0B2nhApKeIKmVWDUzQlB2SVVwakk"; // "0B2nhApKeIKmVc1ljZEM2blZZYm8";
-$url = "http://webdav.cubby.com:443/Web Archive"; // "http://webdav.cubby.com:443/"
-
 // Initial setup
 if (!isset($_SESSION["starttime"])) $_SESSION["starttime"] = time();
-$token = '{"access_token":"ya29.1.AADtN_WB9Vfc7c84am8QQvUR1grGz0AfIJIaLUtJT27gmwAG_LwWqHd259B5R7BKL7eInQ","token_type":"Bearer","expires_in":3600,"refresh_token":"1\/8-PIhkoy8bUAGO7zZK6XjtiOe3nG8d9Q0BGyNPlwi9w","created":1398112418}';
-$davcloud = query("select * from clouds where number = 2");
-$davcloud = $davcloud[0];
-$syncfolderid=$_GET["id"];
-$davcloud["url"] = $_GET["url"];
 require("../includes/gclient.php");
-$client->setAccessToken($token);
+$client->setAccessToken(TOKEN);
 $service = new Google_DriveService($client);
 
 // Functions
@@ -49,8 +41,8 @@ function parsedrivefolder($folderid, $service){
     return false;
 }
 
-function parsedavfolder($url, $davcloud){
-    $prop = davPROP($url, $davcloud["username"], mcrypt_ecb(MCRYPT_3DES, MCRYPTKEY, $davcloud["password"], MCRYPT_DECRYPT));
+function parsedavfolder($url){
+    $prop = davPROP($url, DAVUSERNAME, DAVPASS);
     $status = $prop["info"]["http_code"];
     if($status<400){
         if (strpos($prop["result"], '<?xml') !== false) {
@@ -73,8 +65,8 @@ function parsedavfolder($url, $davcloud){
 }
 
 ////////////////////////////////  Main Sync Function(recursive)  ////////////////////////////////////////
-function sync($davlink, $drivelink, $davcloud, $service){
-    $davarray = parsedavfolder($davlink, $davcloud);
+function sync($davlink, $drivelink, $service){
+    $davarray = parsedavfolder($davlink);
     $drivearray = parsedrivefolder($drivelink, $service);
 
     function f1($a,$b){ // Same in Dav
@@ -96,11 +88,11 @@ function sync($davlink, $drivelink, $davcloud, $service){
     // For Same Filename
     for ($i = 0; $i < count($same); $i++) {
         if($same[$i]['folder']=="t"){
-            header("http://".$_SERVER['HTTP_HOST']."/sync.php?id=".$sameindrive[$i]["id"]."&url=".str_replace(" ", "%20", $same[$i]["href"]));
-            file_put_contents("../unused/sync/log_".date("Y-m-d").".txt", "\n".$same[$i]["name"]." is same folder\n", FILE_APPEND | LOCK_EX);
+            sync($same[$i]["href"], $sameindrive[$i]["id"], $service);
+            echo $same[$i]["name"]." is same folder\n";
         }elseif($same[$i]["modified"]>$sameindrive[$i]["modified"]) {
-            file_put_contents("../unused/sync/log_".date("Y-m-d").".txt", "\n".$same[$i]["name"]." is same file\n", FILE_APPEND | LOCK_EX);
-            $file = davGET($same[$i]["url"], $davcloud["username"], mcrypt_ecb(MCRYPT_3DES, MCRYPTKEY, $davcloud["password"], MCRYPT_DECRYPT));
+            echo $same[$i]["name"]." is same file\n";
+            $file = davGET($same[$i]["url"], DAVUSERNAME, DAVPASS);
             if(md5($file)!=$sameindrive[$i]["md5"]){
                 // todo: Update file in Drive
             }else{
@@ -116,12 +108,12 @@ function sync($davlink, $drivelink, $davcloud, $service){
 
     foreach($davfilesnotindrive as $keydav){
         if($keydav["folder"]=="t"){
-            file_put_contents("../unused/sync/log_".date("Y-m-d").".txt", "\n ".$keydav["name"]."is dav folder not in drive\n", FILE_APPEND | LOCK_EX);
+            echo $keydav["name"]."is dav folder not in drive\n";
             // todo: check for moves, renames, both and then:
                 // Insert folder into Drive,
                 // write function to recursively insert contents(folders/files) into drive
         }else{
-            file_put_contents("../unused/sync/log_".date("Y-m-d").".txt", "\n ".$keydav["name"]."is dav file not in drive\n", FILE_APPEND | LOCK_EX);
+            echo $keydav["name"]."is dav file not in drive\n";
             // todo: check for moves, renames, both and then Insert new file into Drive
         }
     }
@@ -133,16 +125,17 @@ function sync($davlink, $drivelink, $davcloud, $service){
 
     foreach($drivefilesnotindav as $keydrive){
         if($keydrive["folder"]=="t"){
-            file_put_contents("../unused/sync/log_".date("Y-m-d").".txt", "\n ".$keydrive["name"]."is drive folder not in dav\n", FILE_APPEND | LOCK_EX);
+            echo $keydrive["name"]."is drive folder not in dav\n";
             // todo: check for moves, renames, both and then delete from Drive
         }else{
-            file_put_contents("../unused/sync/log_".date("Y-m-d").".txt", "\n ".$keydrive["name"]."is drive file not in dav\n", FILE_APPEND | LOCK_EX);
+            echo $keydrive["name"]."is drive file not in dav\n";
             // todo: check for moves, renames, both and then delete from Drive
         }
     }
 }
 // Start syncing
-sync($davcloud["url"], $syncfolderid, $davcloud, $service);
+//sync(DAVURL, SYNCID, $service);
+print_r(parsedavfolder(DAVURL));
 
 // todo: create sql table to log last sync time
 // todo: Uncomment line when done scripting; include "repeat.php";

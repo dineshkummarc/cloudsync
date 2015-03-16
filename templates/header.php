@@ -43,14 +43,14 @@
                                 <li <?php if($_SERVER["PHP_SELF"] == "/forgot.php") echo 'class="active"'; ?> >
                                     <a href="forgot.php"><i class="icon-flag"></i> <strong> Forgot</strong> Password</a>
                                 </li>
-                            <? else: ?>
+                            <?php else: ?>
                                 <?php $name = query("SELECT * FROM users WHERE id = ?", $_SESSION["id"]);?>
                                 <li <?php if($_SERVER["PHP_SELF"]=="/index.php") echo 'class="active"'; ?> >
                                     <a href="/"><i class="icon-home"></i> <strong> Home</strong></a>
                                 </li>
                                 <li class="divider-vertical"></li>
                                 <li><a href="logout.php" title="Goodbye"><i class="icon-share-alt"></i> <strong> Log</strong> Out</a></li>
-                            <? endif ?>
+                            <?php endif ?>
                         </ul>
                         <?php if(isset($_SESSION['id'])) echo"<p class='navbar-text' style='text-align: right;'>Signed in as ".ucfirst($name[0]["username"])."</p>";?>
                     </div>
